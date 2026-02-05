@@ -58,7 +58,12 @@ form {
   font-size: 20px;
   background-color: #E5E7EB;
   padding-left: 20px;
-  padding-right: 20px;
+  padding-right: 650px;
+}
+
+.one p{
+  font-weight: 800;
+  font-size: 1.2em;
 }
 
 .three {
