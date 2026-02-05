@@ -14,7 +14,6 @@ body {
 }
 
 form {
-  border: 1px solid rgb(112, 12, 29);
   display: flex;
   flex-direction: row;
   width: 1280x;
@@ -25,6 +24,24 @@ form {
 
 .sidebar {
   display: flex;
+  position: relative;
+}
+
+.odinlogo {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 83%;
+  height: 150px;
+  margin-left: 100px;
+  margin-top: 200px;
+  padding-left: 50px;
+  box-sizing: border-box;
+}
+
+.odinlogo img {
+  width: 100px;
+  height: 120px;
+  margin-top: 15px;
 }
 
 .theform{
@@ -44,6 +61,10 @@ form {
   padding-right: 20px;
 }
 
+.three {
+  background-color: #E5E7EB;
+}
+
 span {
   font-style: italic;
 }
@@ -59,7 +80,6 @@ span {
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
-  box-shadow: 5px 5px 5px #aaaaaa;
 }
 
 .two p {
@@ -107,3 +127,23 @@ input:focus {
   box-shadow: #596D48;
 }
 
+.login {
+  color: #596D48;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.odin {
+  color: white;
+  font-size: 5em;
+  position: absolute;
+  margin-top: 35px;
+}
+
+.credits {
+  color: white;
+  position: absolute;
+  margin-top: 850px;
+  margin-left: 300px;
+  font-style: normal;
+}
